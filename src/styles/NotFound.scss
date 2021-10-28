@@ -1,0 +1,40 @@
+@import 'vars';
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    line-height: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 80px;
+    color: var(--hospital-green);
+}
+
+.container h2 {
+    font-size: 40px;
+    color: var(--hospital-green);
+}
+
+.container b {
+    font-size: 20px;
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.message > p > a {
+    text-decoration: none;
+    color: var(--hospital-green);
+}
+
+.message > p > a:hover {
+    text-decoration: underline;
+    color: #56ca66;
+}

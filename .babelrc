@@ -1,0 +1,9 @@
+{
+    "presets": [
+        "@babel/preset-env", // Para usar ECS6
+        "@babel/preset-react" // Para usar React
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime"
+    ]
+}
